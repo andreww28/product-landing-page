@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box:
+}
+
+body{
+  font-size:1.2rem;
+  font-family: Sen;
+  line-height:1.6;
+}
+
+
+.button{
+  max-width:10em;
+  margin:auto;
+  padding:0.4em;
+  font-size:1.2rem;
+}
+
+.container{
+  padding: 2em 2em 4em 2em;
+}
+
+header{
+  padding: 1em 3em;
+  width: 100%;
+  background-color:rgba(0,0,57,0.7);
+  display: flex;
+  justify-content:space-between;
+  position: fixed;
+} 
+
+#nav-bar{
+  margin-top:1em;
+  margin-right: 4em;
+}
+
+#nav-bar ul li{
+  display: inline;
+  margin: 2em;
+}
+
+.nav-link{
+  color: #F6F6F6;
+  text-decoration:none;
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-size:1.5rem;
+}
+
+.img-div{
+  padding: 8em 2em 2em 2em;
+  background: url(https://i.postimg.cc/BZ1MRm97/phone-802125-1920.jpg);
+  background-size:cover;
+  background-position:center center;
+  max-width:100vw;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: flex-end;
+  
+  color:#D5D5D5;
+}
+
+.main-container{
+  width:50%;
+  color:#D5D5D5;
+  padding-top:2em;
+  display:flex;
+  flex-direction:column;
+}
+
+#title{
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: clamp(5rem, 8vw, 8rem);
+  font-weight:100;
+  line-height:1;
+}
+
+span{
+  font-size: clamp(7rem, 10vw,10rem);
+  color: rgb(252, 245, 23);
+}
+
+.description-div{
+  margin-top: 1em;
+  padding:0.5em;
+  max-width:60ch;
+  background-color: rgba(25, 25, 33,0.6)
+}
+
+#form{
+  display:flex;
+  flex-direction:column;
+  gap:2em;
+  margin:0;
+  margin-top:2em;
+}
+
+#email{
+  max-width:15em;
+  padding:0.3em;
+  font-size: 1.2rem;
+}
+
+#submit{
+  margin:0;
+  margin-top:-1em;
+  border:0;
+  background-color:#DBEF28;
+  color:#423C3C;
+}
+
+h2{
+  margin:1em 0;
+  font-family: Rockwell;
+  font-size: clamp(2.5rem, 3vw, 3rem);
+  font-weight:700;
+  color: #013C7D;
+  line-height:1;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.vivo-container{
+  background-color: #ffffff;
+}
+
+.vivo-div{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+#vivo-phone{
+  width:100%;
+  max-width:30em;
+}
+
+.vivo-desc{
+  width:40vw;
+}
+
+#video{
+  width:95%;
+}
+
+.tips{
+  background-color: #D2D2D2;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.top-3{
+  background-color:#ffffff;
+}
+
+.cols{
+  display:flex;
+  justify-content: center;
+  gap:2em;
+}
+
+.col{
+  background-color: #C4C4C4;
+  width:30%;
+}
+
+.vivo-brand-div{
+  font-family: rockwell;
+  background-color:#013C7D;
+  color: #DBEF28;
+  font-size:1.5rem;
+  padding:1em;
+}
+
+.brand-desc{
+  padding:2em;
+  display:flex;
+  flex-direction:column;
+  align-items: space-between;
+  gap:2em;
+}
+
+.price{
+  font-size: 1.5rem;
+}
+
+.btn-blue{
+  width:100%;
+  background-color:#013C7D;
+  color: #E5E5E5;
+} 
+
+.contact-div{
+  display:flex;
+  justify-content:center;
+}
+.contact{
+  padding-top:1em;
+  background-color: #D2D2D2;
+}
+
+#contact-label{
+  color: #013C7D;
+  font-size:clamp(1.5rem,4vw,2rem);
+  margin-bottom:-1em;
+}
+
+#msg-form{
+  width:70%;
+  display:flex;
+  flex-direction:column;
+  gap:2em;
+}
+
+#form-title{
+  font-size:clamp(1rem, 3vw, 1.5rem);
+  color:#013C7D;
+}
+
+message-div{
+  paddindg:2em;
+}
+textarea{
+  width:80%;
+}
+ 
+.last-btn{
+  width:10rem;
+  margin:0;
+}
+
+footer{
+  background-color:#013C7D;
+  padding:1em;
+  color:#fff;
+}
+
+@media (max-width:940px){
+  .vivo-div{
+    flex-direction:column;
+  }
+  .vivo-desc{
+    width:90%;
+    margin-top:1em;
+  }
+  
+  .cols{
+    flex-direction:column;
+    align-items:center;
+  }
+  
+  .col{
+    width:100%;
+    max-width:30em;
+  }
+  
+  .brand-desc{
+    text-align:center;
+  }
+  
+  .brand-desc li{
+    list-style:none;
+  }
+  
+  #contact-label{
+    margin-bottom:1em;
+  }
+  
+  #msg-form{
+    gap:1em;
+  }
+  
+}
+
+@media (max-width: 662px){
+  .container{
+    padding:0.5em;
+  }
+  header{
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:0;
+  }
+  
+  #header-img{
+    margin-top: 0.5em;
+  }
+  
+  #nav-bar ul li{
+    margin: 0;
+    margin-left: 4em;
+    display: block;
+    text-align: center;
+  }
+ 
+  
+  .btn-blue{
+    font-size:1rem;
+    width:5em;
+  }
+  
+}
+
+@media (max-width:500px){
+  .img-div{
+    align-items:flex-start;
+  }
+  
+  .main-container{
+    width:100%;
+  }
+  
+  .description-div{
+    max-width:90ch;
+  }
+  
+  .brand-desc{
+    text-align:left;
+  }
+  
+  .brand-desc li{
+    list-style:normal;
+  }
+  
+  #msg-email{
+    font-size:1em;
+  }
+  
+  textarea{
+    width:100%;
+  }
+  
+  footer{
+    padding:0.5em;
+    font-size:0.8rem;
+  }
+}
